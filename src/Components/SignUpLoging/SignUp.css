@@ -1,0 +1,127 @@
+* {
+    height: 100 vh;
+    background-color: #0b3d8e;
+    background: transparent;
+}
+
+.Container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 30px;
+    background-color: rgb(229, 237, 244);
+    gap: 25px;
+}
+
+.icon {
+    width: 25px;
+    height: 20px;
+
+}
+
+.underline {
+    width: 62px;
+    height: 6px;
+    background: #1639c7;
+    border-radius: 9px;
+}
+
+.text {
+
+    color: blue;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 9px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.inputs {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    border-radius: 9px;
+    background: #c7c7d3;
+}
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 30px;
+    width: 300px;
+    color: #130b0b;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #130b0b;
+
+}
+
+.forgget-password {
+    padding-left: 200px;
+    margin-top: 27px;
+    color: #fd4545;
+    font-size: 19px;
+}
+
+.forgget-password span {
+    color: #0b3d8e;
+    cursor: pointer;
+}
+
+.submit_container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 19px;
+    color: rgb(236, 243, 248);
+    background-color: blue;
+}
+
+.gray {
+    background-color: #c7c7d3;
+    color: #000;
+}
+
+.data {
+
+    background-color: rgb(118, 109, 109);
+    color: #1c0361;
+    font-size: 20px;
+}
+.text1{
+    color: #460657;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
